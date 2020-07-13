@@ -9,8 +9,8 @@ using namespace std;
 int main()
 {
     Account a1(11111, 500.00);
-    Account a2(22222, 900.00);
-    Account a3(33333, 1500.00);
+    Account a2(22222, 900.50);
+    Account a3(33333, 1500.04);
 
     Owner o1(100, "Ric");
     Owner o2(200, "Karen");

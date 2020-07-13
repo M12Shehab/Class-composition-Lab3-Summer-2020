@@ -74,7 +74,10 @@ void Owner::removeAccount(int acct) {
 // displays all accounts of the person
 void Owner::listAllAccounts()  const {
     for (int i = 0; i < numAccounts; i++)
+    {
         cout << "Account:  " << accounts[i].getAccountNumber() << endl;
+        cout << "Balance : " << accounts[i].getBalance() << " CA\n";
+    }
 }
 
 // Searches if the account number entered is an account of this person
