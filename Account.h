@@ -4,10 +4,10 @@ class Account
 private:
     int accountNum;      // Account number
     double balance;      // Account balance
-
+    static int id_generator; // Make account id generated automatically.
 public:
     Account();	                     // Default constructor    
-    Account(int, double);            // Regular constructor
+    Account(double);            // Regular constructor
     Account(const Account&);         // Copy constructor
     ~Account();                      // Destructor
 

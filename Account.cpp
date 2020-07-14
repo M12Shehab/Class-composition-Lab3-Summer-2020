@@ -2,6 +2,10 @@
 using namespace std;
 
 #include "Account.h"
+
+// init the static attribute.
+int Account::id_generator = 0;
+
 // Default constructor
 Account::Account() {
 	accountNum = 0;
@@ -9,8 +13,8 @@ Account::Account() {
 }
 
 // Regular constructor
-Account::Account(int an, double b) {
-	accountNum = an;
+Account::Account(double b) {
+	accountNum = ++id_generator;
 	balance = b;
 }
 

@@ -4,7 +4,7 @@ using namespace std;
 
 #include "Owner.h"
 
-
+int Owner::id_generator = 0;
 // Default constructor    
 Owner::Owner() {
     id = 0;
@@ -14,8 +14,8 @@ Owner::Owner() {
 }
 
 // Initializes attributes of Owner
-Owner::Owner(int id1, string name1) {
-    id = id1;
+Owner::Owner(string name1) {
+    id = id_generator++;
     name = name1;
     accounts = new Account[10];
     numAccounts = 0;

@@ -24,12 +24,30 @@
     <ClCompile Include="Owner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryAccount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Owner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryAccount.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

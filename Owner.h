@@ -13,10 +13,10 @@ private:
 
     Account* accounts;     // List of accounts of this person (10 accounts max)
     int numAccounts;        // The current number of accounts held  by this owner                   
-
+    static int id_generator; // Make account id generated automatically.
 public:
     Owner();	            // Default constructor    
-    Owner(int, std::string);     // Initializes attributes of Owner with user input
+    Owner(std::string);     // Initializes attributes of Owner with user input
     Owner(const Owner&);    // Copy constructor
     ~Owner();               // Destructor needed is Owner contains pointers
 
